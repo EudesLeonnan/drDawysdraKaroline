@@ -1,0 +1,70 @@
+/************************** TAG SELECTORS **************************/
+
+body {
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 0 0 0;
+}
+
+hr { border: dotted coral 6px;
+    border-bottom: none;
+    margin: 30px auto;
+
+}
+
+p {
+    line-height: 0px;
+}
+
+
+/************************** CLASS SELECTORS **************************/
+.container {
+    padding: 0px 0px;
+    
+}
+.cont1 {
+    background-color: #161a33;
+}
+.cont2 {
+    background-color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.caroseu {
+    padding: 80px 0px;
+}
+.baixo {
+    text-align: center;
+    font-size: smaller;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+/************************** ID SELECTORS **************************/
+
+#cont1d {
+            text-align: left;
+            padding: 0px 0px;
+            width: 100%;
+            border-radius: 
+}    
+
+#cont1k {
+            text-align: right;
+            padding: 0px 0px;
+            width: 100%;
+}
+
+
+#logotk {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#logotd {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 70px ;
+}
