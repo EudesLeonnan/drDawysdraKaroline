@@ -43,7 +43,7 @@ p {
     background-color: #161a33;
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     color: #d1ba84;
 }
 .caroseu {
@@ -58,15 +58,19 @@ p {
 
 .navbar-nav {
     text-align: center;
-    font-size: 1.2rem;
-     
-}
-.nav-link {
-    font-size: 1.2rem;
+         
 }
 
+@media (max-width:900px) {
+    .nav-item {
+        padding: 18px;
+        font-size: 4.1rem;
+    }
+    
+}
 .nav-item {
     padding: 18px;
+    font-size: 1.1rem;
 }
 /************************** ID SELECTORS **************************/
 
@@ -74,7 +78,7 @@ p {
             text-align: left;
             padding: 0px 0px;
             width: 100%;
-            border-radius: 
+         
 }    
 
 #cont1k {
@@ -94,4 +98,14 @@ p {
     width: 100%;
     padding-top: 20px;
     padding-bottom: 70px ;
+}
+
+#carouselcont4 {
+    padding-top: 20px ;
+    padding-bottom: 20px;
+}
+#textocons {
+     text-align: justify;
+     padding-right: 20px;
+     padding-left: 20px;
 }
